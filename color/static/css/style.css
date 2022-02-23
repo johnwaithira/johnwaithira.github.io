@@ -33,7 +33,9 @@ button{
     transform: rotate(-90deg);}
 
 /* Scroll Buttin END */
-
+.background-inherit-important{
+    background: inherit !important;
+}
 a{  text-decoration: none;
     color: inherit !important;}
  li{ list-style: none;}
@@ -74,6 +76,7 @@ a{  text-decoration: none;
  #checkNavBar,nav label{
      display: none;
  }
+
  .menu{
      width: 35px;
      background: #000;
@@ -101,7 +104,11 @@ a{  text-decoration: none;
      .nav-items{
          flex: 0.9;
      }
- }
+}
+        
+.c-pointer{
+    cursor: pointer;
+}
  @media (min-width:1200px){
      .nav-items{
          flex: 0.8;
@@ -254,14 +261,18 @@ footer .gap{
         justify-content: space-evenly;
         right: 0;
         top: -1000px;
-        background: #f2f2f2;
+        background: #fff;
         position: absolute;
+        
     }
+ 
+    
     nav .wrapper .nav-items li{
         display: flex;
         flex-direction: column;
         padding-top: 15px;
     }
+
     .upper-footer{
         width: 95%;
     }
@@ -307,6 +318,9 @@ nav .wrapper{
     .newsletterwrapper{
        width: 90%;
    }     
+   img{
+    width: 100% !important;
+}
    .scroll-div{
        position: fixed;
        bottom: 20px;
@@ -325,6 +339,12 @@ nav .wrapper{
 }
 .b-one{
     border: 1px solid #1c1c2467;
+}
+
+.b-one-bottom{
+    border-top: 1px solid #1c1c2467;
+    border-left: 1px solid #1c1c2467;
+    border-right: 1px solid #1c1c2467;
 }
 .b-right{
     border-right: none;

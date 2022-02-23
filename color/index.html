@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static//css/style.css">
+</head>
+<body >
+
+
+    <div class="color col-6 m-a">
+        <div class="color-wrapper box-shadow m-30 b-one">
+            <div class="color-div">
+                <div class="tab p-10-20">
+                    <button class="tabBtn p-10-20 b-n bg-fade c-white" > RGB</button>
+                    <button class="tabBtn p-10-20 b-n float-right" onclick="get()">Generate</button>
+                </div>
+            
+                <div class="newsletter-form">
+                    <div class="n-form p-10-20">
+                        <input  class="outline-none b-r-5 p-12-25 b-one b-right "  id="val" type="text">
+                        <button type="submit" id="copy" class="b-r-5 b-left overlap-left--10 c-p p-12-12 b-one bg-blue f-s-16 c-black_1 f-w-700">Copy</button>
+                    </div>
+                    <div class="subscribe-div text-center">
+                        <!-- <p class="success-txt">Copied</p> -->
+                    </div>    
+        
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <style>
+        .b-20{
+            bottom: 20px;
+        }
+        .l-20{
+            left: 20px;
+        }
+        .r-20{
+            right: 20px;
+        }
+
+        .box{
+            width: 100px;
+            height: 100px;
+
+        }
+        #previous{
+            opacity: 0;
+            width: 1px;
+        }
+    </style>
+    <div title="click to copy" id="prevcolor" class=" p-l-20 box box-shadow c-pointer">
+        <input type="text" id="previous">
+        <p></p>
+
+    </div>
+    <script>
+        let add = document.getElementById("add");
+        document.getElementById("amount").value =  1  + 1;
+        add.onclick = function(){
+            var cr =document.getElementById("amount").value;
+        }
+
+    </script>
+    <footer>
+        <p class="position-fixed b-20 l-20 col-6">Color Generator  v1.1.22</p>
+        <p class="position-fixed b-20 r-20 bg_update p-2-20 box-shadow" >Made by <a href="https://www.linkedin.com/in/johnwaithira">John</a></p>
+    </footer>
+    <script>   
+    
+    
+        var btn = document.getElementById("copy"), input = document.getElementById("val");
+        btn.onclick = function(){
+            input.select();
+            document.execCommand("copy");
+        }
+      
+        function copy(valueToCopy){
+            valueToCopy.select();
+            document.execCommand("copy");
+
+        }
+
+        function gen(x){
+            return Math.floor(Math.floor(Math.random()*255))
+        }
+        var a,color = "", data = Array(),prev, previous;
+
+        function get(){
+            
+            color = (gen(255) + ", " + gen(255) + ", " + gen(255));
+            var rgb = " rgb( " +color+ " )";
+            data.push(color);
+            prev = JSON.parse(localStorage.getItem('colors'));
+            console.log(prev)
+            previous = document.getElementById("previous");
+            document.querySelector(".box p").style.color = rgb;
+            document.querySelector(".box p").style.fontWeight = "bolder";
+            previous.value ="rgb(" + prev + ")";
+            document.querySelector(".box").style.background = "rgb(" + prev + ")";
+            localStorage.setItem("colors",JSON.stringify(color))
+
+            input.value = rgb;
+            document.body.style.background = rgb;
+        }
+        get();
+        let prevcolor = document.querySelector("#prevcolor");
+        prevcolor.addEventListener("click", function(){
+            previous.select();
+            document.execCommand("copy");
+            document.querySelector(".box p").innerHTML = "Copied";
+            setTimeout(() => {
+                document.querySelector(".box p").innerHTML = "";
+
+            }, 2000);
+            
+        });
+           
+    </script>
+</body>
+</html>
