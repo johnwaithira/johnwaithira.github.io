@@ -12,6 +12,8 @@
 /* Smooth scroll END */
 
 /* Scroll Button */
+
+
 button{
     cursor: pointer;}
 .scroll-div{
@@ -104,7 +106,13 @@ a{  text-decoration: none;
      .nav-items{
          flex: 0.9;
      }
-}
+     
+        nav .wrapper .nav-items{
+           
+            flex: 0.8;
+        }
+    }
+
         
 .c-pointer{
     cursor: pointer;
@@ -113,6 +121,10 @@ a{  text-decoration: none;
      .nav-items{
          flex: 0.8;
      }
+     nav .wrapper .nav-items{
+           
+        flex: 0.6;
+    }
  }
 
 /* Media Query END  */
@@ -285,6 +297,8 @@ footer .gap{
    .float-right{
        float: right;
    }
+
+
    .text-left{
        text-align: left;
    }
@@ -321,10 +335,25 @@ nav .wrapper{
    img{
     width: 100% !important;
 }
+.float-right{
+    float: none;
+}
+
    .scroll-div{
        position: fixed;
        bottom: 20px;
        right: 20px;}  
+}
+.space-between{
+    justify-content: space-between;
+    
+}
+
+.space-around{
+    justify-content: space-around;
+}
+.space-evenly{
+    justify-content: space-evenly;
 }
 .newsletter-form  input{
     height: auto;
@@ -333,6 +362,7 @@ nav .wrapper{
 }
 .overlap-left--10{
     margin-left: -10px;
+    
 }
 .overlap-right--10{
     margin-right: -10px;
@@ -351,6 +381,12 @@ nav .wrapper{
 }
 .b-left{
     border-left: none;
+}
+.b-bottom{
+    border-bottom: none;
+}
+.b-top{
+   border-top: none;
 }
 .bg-inherit{
     background: inherit;

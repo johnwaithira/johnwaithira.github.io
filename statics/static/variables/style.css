@@ -1,5 +1,8 @@
 
 
+.box-shadow1{
+    box-shadow: 2px  1px 14px #f8f8f8, 2px 2px  10px #77777721;
+}
 
 .f-s-0{font-size:0px;}
 .f-s-1{font-size:1px;}
