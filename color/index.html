@@ -91,12 +91,14 @@
         function gen(x){
             return Math.floor(Math.floor(Math.random()*255))
         }
-        var a,color = "", data = Array(),prev, previous;
+        var a,color = "", data = Array(),prev, previous, red, green, blue;
 
         function get(){
-            
-            color = (gen(255) + ", " + gen(255) + ", " + gen(255));
-            console.log(toHexa(color));
+            red = gen(255);
+            green = gen(255);
+            blue = gen(255);
+            color = ( red + ", " + green + ", " + blue);
+            console.log(toHexa(red, green, blue));
             var rgb = " rgb( " +color+ " )";
             data.push(color);
             prev = JSON.parse(localStorage.getItem('colors'));
