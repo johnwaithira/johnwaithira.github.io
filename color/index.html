@@ -24,6 +24,8 @@
                         <input  class="outline-none b-r-5 p-12-25 b-one b-right "  id="val" type="text">
                         <button type="submit" id="copy" class="b-r-5 b-left overlap-left--10 c-p p-12-12 b-one bg-blue f-s-16 c-black_1 f-w-700">Copy</button>
                     </div>
+                    <input  class="outline-none b-r-5 p-12-25 b-one b-right "  id="valhex" type="text">
+                    <button type="submit" id="copyhex" class="b-r-5 b-left overlap-left--10 c-p p-12-12 b-one bg-blue f-s-16 c-black_1 f-w-700">Copy Hex</button>
                     <div class="subscribe-div text-center">
                         <!-- <p class="success-txt">Copied</p> -->
                     </div>    
@@ -77,8 +79,13 @@
     
     
         var btn = document.getElementById("copy"), input = document.getElementById("val");
+        var btnhex = document.getElementById("copyhex"), inputhex = document.getElementById("valhex");
         btn.onclick = function(){
             input.select();
+            document.execCommand("copy");
+        }
+        btnhex.onclick = function(){
+            inputhex.select();
             document.execCommand("copy");
         }
       
@@ -111,6 +118,7 @@
             localStorage.setItem("colors",JSON.stringify(color))
 
             input.value = rgb;
+            inputhex.value = toHexa(red, green, blue);
             document.body.style.background = rgb;
         }
         get();
