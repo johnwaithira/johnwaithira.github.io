@@ -96,6 +96,7 @@
         function get(){
             
             color = (gen(255) + ", " + gen(255) + ", " + gen(255));
+            console.log(toHexa(color));
             var rgb = " rgb( " +color+ " )";
             data.push(color);
             prev = JSON.parse(localStorage.getItem('colors'));
@@ -122,6 +123,8 @@
             }, 2000);
             
         });
+        
+        
            
     </script>
 </body>
