@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>john Waithira | Developer codeWJ </title>
+   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./myCss/style.css">
+    <link rel="stylesheet" href="./sticker.css">
+    <link rel="shortcut icon" href="./media/dev.png" type="image/x-icon">
+</head>
+<body >
+	<div id="myModal" class="modal">
+		<div class="c-pointer  close" style="display: flex; float:right;" id="close">
+             <p class="bg_update p-0-12 b-r-100 f-s-30 f-w-900" >&times;</p>
+        </div>
+	<div id="edit">
+		editing
+	</div>
+</div>
+	<div class="p-10-15">
+	<style>button{padding:10px;}</style>
+		<div class="col-3 " style="position:fixed; bottom:40px; right:0px; z-index:1000; ">
+			<div class="p-r-30">
+				<div class="hide box-shadow p-20-5 " style="background:rgba(59, 164,175,0.8)" id="myform">
+				<form class="" id="stickerform">
+				   <input type="text" name="name" id="name" placeholder="Title *" value =""
+				                               class="in f-s-17 b-n outline-none b-one p-10-15 m-t-4  w-p-100 ">
+				   <input type="text" name="name" id="description" placeholder="Description *" value =""
+				                               class="in f-s-17 b-n outline-none b-one p-10-15 m-t-4  w-p-100 ">
+				   
+				   <button class="p-10-15 m-4-0 bg-inherit b-one " style="background:#fff" id="savebtn">Save</button>
+				</form>
+			</div>
+			<div style="float:right" class=" m-a">
+				<button class="p-10-20 m-t-3 bg-inherit b-one" id="mybt" onclick="formtoggle()">New</button>
+			</div>
+			</div>
+			
+		</div>
+	</div>
+	<div style="min-height: 90vh; overflow-Y:scroll ; display:flex; align-items:center">
+		<div id="display" class="w-p-95 m-a display-flex"></div>
+	</div>
+	
+	<div style="position: fixed;  bottom: 10px; z-index:10000;" class="text-center col-6  display-flex" id="toast">
+				
+	</div>
+<script src="./sticker.js">
+</script>
+</body>
+</html>
+
