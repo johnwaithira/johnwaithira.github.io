@@ -179,7 +179,7 @@ function show()
 									<div>
 										 <h2 class="p-t-10 f-w-100 f-s-40">${data[elem]["title"]}</h2>
 										 <hr style="mix-blend-mode: screen;"  class="m-10-0">
-										 <p>${data[elem]["description"]}</p>
+										 <p class='f-w-100 f-s-18'>${data[elem]["description"]}</p>
 									</div>
 									<div class="p-10-0">
 										<p class="f-s-14 ">Created at : ${data[elem]["created_at"]}</p>
