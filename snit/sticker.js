@@ -177,7 +177,7 @@ function show()
 						<div class="p-t-10 p-l-10 w-p-100" style="display: flex; align-items: center;">
 								<div onclick="openCurrent(event) " class="w-p-100 p-10 m-3 box-shadow b-r-7 c-pointer" style="min-height:100px;background:${color()}; transform:rotate(${sign+ Math.floor(Math.random(0) * 10)}deg)">
 									<div>
-										 <h2 class="p-t-10">${data[elem]["title"]}</h2>
+										 <h2 class="p-t-10 f-w-100 f-s-40">${data[elem]["title"]}</h2>
 										 <hr style="mix-blend-mode: screen;"  class="m-10-0">
 										 <p>${data[elem]["description"]}</p>
 									</div>
