@@ -1,0 +1,82 @@
+@keyframes morph{
+    0%{
+        border-radius:60% 40% 30% 70%/60% 30% 70% 40%
+    }
+    50%{
+        border-radius:30% 60% 70% 40%/50% 60% 30% 60%
+    }
+    100%{
+        border-radius:60% 40% 30% 70%/60% 30% 70% 40%
+    }
+}
+
+*::-webkit-scrollbar {
+    width: 0px;
+  }
+
+.avatar{
+    width: 200px;
+    height: 200px;
+}
+.image
+{
+   
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation: morph 8s ease-in-out infinite 1s;
+    background-blend-mode: multiply;
+    -webkit-box-shadow: inset 0 0 0 9px rgba(255,255,255,.3);
+    -moz-box-shadow: inset 0 0 0 9px rgba(255,255,255,.3);
+    box-shadow: inset 0 0 0 9px rgba(255,255,255,.3);
+    background-image: url("../media/about.jpg");
+}
+.active{
+    color: rgb(6, 6, 124);
+    font-weight: 800;
+    
+}
+.homepage{
+    display: flex;
+    height: 100vh;
+    padding: 30px;
+}
+
+.linkDiv{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+}
+.linkDiv .logo{
+    padding-left: 20px;
+}
+.linkDiv .links {
+    padding: 30px 0;
+}
+.link-box li{
+    transition: font-weight 0.5s;
+    padding: 5px 0;
+    cursor: pointer;
+}
+.link-box{
+    padding: 20px;
+}
+.con{
+    max-height: 100%;
+    overflow: auto;
+}
+.contentDiv{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.socials i{
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
