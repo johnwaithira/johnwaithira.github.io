@@ -267,8 +267,8 @@
 }
 #registration-form .switch .register-radio input:checked + span{
     color:#fff;
-    background:#0fb8ff;
-    border-color:#0fb8ff
+    background:purple;
+    border-color:purple
 }
 #registration-form .switch .register-radio input{
     border:none;
@@ -344,8 +344,8 @@
 }
 #registration-form .switch .register-radio input:checked + span{
     color:#fff;
-    background:#0fb8ff;
-    border-color:#0fb8ff
+    background:purple;
+    border-color:purple
 }
 #registration-form .switch .register-radio input{
     border:none;
