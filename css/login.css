@@ -25,7 +25,7 @@
     transition:all .4s
 }
 .social_links .social_google_plus span.icon,.social_links .social_facebook span.icon{
-    background:url(/img/redesign/Google_icon.png) no-repeat;
+    background:url(https://studydaddy.com/img/redesign/Google_icon.png) no-repeat;
     background-size:30px;
     display:inline-block;
     vertical-align:middle;
@@ -46,7 +46,7 @@
     background:#3b5999
 }
 .social_links .social_facebook span.icon{
-    background-image:url(/img/redesign/fb_icon.png);
+    background-image:url(https://studydaddy.com/img/redesign/fb_icon.png);
     background-size:20px;
     margin-left:30px;
     width:45px
