@@ -1,0 +1,324 @@
+.modal-inner .social_links{
+    font-size:15px;
+    margin-top:10px;
+    font-weight:600;
+    margin-bottom:10px;
+    text-align:left
+}
+.social_links .social_google_plus .customGPlusSignIn,.social_links .social_facebook .customFbSignIn{
+    display:inline-block;
+    background:#fff;
+    color:#444;
+    width:100%;
+    border-radius:4px;
+    white-space:nowrap;
+    -webkit-box-shadow:0 5px 30px rgba(0,0,0,0.25);
+    box-shadow:0 5px 30px rgba(0,0,0,0.25);
+    height:45px
+}
+.signUpSmall .social_links .social_google_plus .customGPlusSignIn,.signUpSmall .social_links .social_facebook .customFbSignIn{
+    height:45px
+}
+.social_links .social_google_plus .customGPlusSignIn:hover,.social_links .social_facebook .customFbSignIn:hover{
+    -webkit-box-shadow:0 5px 30px rgba(0,0,0,0.35);
+    box-shadow:0 5px 30px rgba(0,0,0,0.35);
+    transition:all .4s
+}
+.social_links .social_google_plus span.icon,.social_links .social_facebook span.icon{
+    background:url(/img/redesign/Google_icon.png) no-repeat;
+    background-size:30px;
+    display:inline-block;
+    vertical-align:middle;
+    width:30px;
+    height:45px;
+    background-position:center center;
+    margin-left:40px
+}
+.social_links .social{
+    cursor:pointer;
+    text-align:left
+}
+.social_links .social.social_google_plus{
+    display:block;
+    margin-bottom:25px
+}
+.social_links .social_facebook .customFbSignIn{
+    background:#3b5999
+}
+.social_links .social_facebook span.icon{
+    background-image:url(/img/redesign/fb_icon.png);
+    background-size:20px;
+    margin-left:30px;
+    width:45px
+}
+.signUpSmall .social_links .social_google_plus span.icon,.signUpSmall .social_links .social_facebook span.icon{
+    height:45px
+}
+.indent25px{
+    display:block;
+    margin-bottom:25px
+}
+.social_links .social_google_plus span.buttonText,.social_links .social_facebook span.buttonText{
+    display:inline-block;
+    vertical-align:middle;
+    padding-left:15px;
+    padding-right:50px;
+    font-size:17px;
+    font-weight:600;
+    font-family:'Lato',sans-serif;
+    color:#717171;
+    padding-right:0
+}
+.social_links .customFbSignIn{
+    background:#3b5999
+}
+.social_links .social_facebook span.buttonText{
+    color:#fff
+}
+.signin_or{
+    color:#333;
+    margin-top:10px;
+    font-weight:500;
+    font-size:17px
+}
+#registration-form .btn.btn-blue{
+    line-height:45px
+}
+#registration-form .field-registrationform-role{
+    margin-bottom:-10px
+}
+#registration-form .switch .register-radio span{
+    border:1px solid #555;
+    line-height:44px;
+    text-align:center;
+    display:block;
+    font-size:14px;
+    border-radius:3px 0 0 3px
+}
+#registration-form .switch .register-radio:first-of-type span{
+    border-right:0;
+    border-radius:3px 0 0 3px
+}
+#registration-form .switch .register-radio:last-of-type span{
+    border-left:0;
+    border-radius:0 3px 3px 0
+}
+#registration-form .switch .register-radio input:checked + span{
+    color:#fff;
+    background:#0fb8ff;
+    border-color:#0fb8ff
+}
+#registration-form .switch .register-radio input{
+    border:none;
+    padding:0
+}
+#registration-form .btn.btn-blue{
+    font-weight:600;
+    font-size:17px;
+    text-transform:initial
+}
+#login-form{
+    margin-top:15px
+}
+#login-form button{
+    width:100%;
+    line-height:45px;
+    margin:9px 0;
+    line-height:63px
+}
+#registration-form .switch span.label_span,#login-form span.label_span{
+    display:block;
+    color:#333;
+    font-size:15px;
+    margin-bottom:5px;
+    text-align:left
+}
+#registration-form .switch{
+    font-size:0;
+    margin-bottom:20px
+}
+#registration-form .modal__form-row span.label_span{
+    display:block;
+    color:#333;
+    font-size:15px;
+    margin-bottom:5px;
+    text-align:left;
+    font-weight:500
+}
+#login-form .info{
+    font-size:15px;
+    position:relative;
+    text-align:left;
+    color:#333;
+    margin-top:20px;
+    font-weight:500
+}
+#login-form .info a.js-modal-register-btn{
+    position:absolute;
+    top:0;
+    right:0
+}
+#registration-form .switch .register-radio{
+    display:inline-block;
+    width:50%;
+    vertical-align:middle;
+    cursor:pointer
+}
+#registration-form .switch .register-radio span{
+    border:1px solid #555;
+    line-height:44px;
+    text-align:center;
+    display:block;
+    font-size:14px;
+    border-radius:3px 0 0 3px
+}
+#registration-form .switch .register-radio:first-of-type span{
+    border-right:0;
+    border-radius:3px 0 0 3px
+}
+#registration-form .switch .register-radio:last-of-type span{
+    border-left:0;
+    border-radius:0 3px 3px 0
+}
+#registration-form .switch .register-radio input:checked + span{
+    color:#fff;
+    background:#0fb8ff;
+    border-color:#0fb8ff
+}
+#registration-form .switch .register-radio input{
+    border:none;
+    padding:0
+}
+#registration-form .btn.btn-blue{
+    font-weight:600;
+    font-size:17px;
+    text-transform:initial
+}
+@media (max-width: 767px){
+    p.signin_or{
+        margin-top:5px;
+        font-size:15px
+    }
+    #login-form{
+        margin-top:0
+    }
+    .social_links .social_google_plus .customGPlusSignIn,.social_links .social_facebook .customFbSignIn{
+        height:45px
+    }
+    .social_links .social_google_plus span.icon{
+        background-size:25px;
+        height:45px;
+        width:25px;
+        margin-left:20px
+    }
+    .social_links .social_facebook span.icon{
+        height:45px;
+        width:25px;
+        background-size:17px;
+        margin-left:20px
+    }
+    .social_links .social_google_plus span.buttonText{
+        font-size:17px;
+        margin-top:0;
+        padding-left:20px;
+        padding-right:20px
+    }
+    #login-form .modal__form-row{
+        margin-bottom:20px
+    }
+    #login-form .modal__form-row .modal__error-message{
+        margin-top:2px
+    }
+    #login-form button,#registration-form .btn.btn-blue{
+        line-height:45px
+    }
+}
+@media (max-height: 693px){
+    p.modal_p{
+        margin-bottom:10px
+    }
+    form#registration-form .modal__form-row{
+        margin-bottom:20px
+    }
+    form#registration-form .modal__form-row .modal__error-message{
+        margin-top:2px
+    }
+    .social_links .social.social_google_plus{
+        margin-bottom:15px
+    }
+    .modal-inner{
+        max-height:90%
+    }
+    form#registration-form .field-registrationform-role{
+        margin-bottom:29px
+    }
+}
+@media (max-height: 636px){
+    #login-form button,#registration-form .btn.btn-blue{
+        line-height:40px
+    }
+    #registration-form .switch .register-radio span{
+        line-height:38px
+    }
+    .js-modal-register .modal-inner .window-title{
+        padding:0 40px
+    }
+    p.signin_or{
+        margin:3px 0 -3px
+    }
+    .modal-inner .social_links:nth-last-child(1){
+        margin-bottom:0
+    }
+    p.signin_or{
+        font-size:15px
+    }
+    #login-form .info{
+        margin-top:15px;
+        margin-bottom:15px;
+        line-height:24px
+    }
+    #login-form input,#registration-form input{
+        height:36px
+    }
+    #login-form button,#registration-form button{
+        line-height:40px
+    }
+    #login-form .modal__form-row,#registration-form .modal__form-row{
+        margin-bottom:20px
+    }
+    .indent25px{
+        display:none
+    }
+    .social_links .social_google_plus .customGPlusSignIn,.social_links .social_facebook .customFbSignIn{
+        height:40px
+    }
+    .js-signin-modal-block p.modal_p{
+        margin-bottom:10px
+    }
+    .social_links .social_google_plus span.icon{
+        background-size:25px;
+        width:25px;
+        margin-top:0;
+        background-position:center;
+        height:40px
+    }
+    .social_links .social_facebook span.icon{
+        background-size:15px;
+        width:30px;
+        margin-top:0;
+        height:40px;
+        background-position:25% center
+    }
+    .social_links .social_google_plus span.buttonText{
+        font-size:17px;
+        margin-top:0;
+        padding-left:20px;
+        padding-right:20px
+    }
+    form#registration-form .field-registrationform-role{
+        margin-bottom:23px
+    }
+    form#registration-form .signin_or{
+        margin:10px 0 5px
+    }
+}
