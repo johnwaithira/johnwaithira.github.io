@@ -1,3 +1,165 @@
+.modal-outer.js-already-modal .modal__text {
+    color: #717171;
+    font-size: 15px;
+    line-height: normal;
+    font-weight: 600;
+    }
+    .modal-outer.js-already-modal .modal-title {
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #333333;
+    }
+    .modal-outer.js-already-modal .modal__text-email {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 10px;
+    }
+    .modal-outer.js-already-modal .field-loginform-password .pull-right {
+    float: right;
+    font-size: 15px;
+    font-weight: 600;
+    }
+    .modal-outer.js-already-modal .modal__form-label {
+    text-align: left;
+    color: #333333;
+    font-weight: 600;
+    font-size: 16px;
+    }
+    .modal-outer.js-already-modal .modal__form button {
+    line-height: 63px;
+    }
+    .modal-outer.js-already-modal figure {
+    display: inline-block;
+    vertical-align: middle;
+    background: #FFF;
+    border-radius: 30px 30px 30px 0;
+    width: 55px;
+    line-height: 55px;
+    text-align: center;
+    -webkit-box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+    }
+    .modal-outer.js-already-modal .modal__exist-user {
+    padding-left: 0;
+    text-align: left;
+    }
+    .modal-outer.js-already-modal .modal-close.js-already-modal-close {
+    background: url(/img/redesign/Close_icon.svg) no-repeat;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    cursor: pointer;
+    }
+    .btn.posting_btn {
+    height: 65px;
+    font-size: 18px;
+    line-height: 50px;
+    width: calc(100% - 20px);
+    margin: 0 10px 15px;
+    }
+    .modal__posting-form .form__label {
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 25px;
+    }
+    .js-cut-button {
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: block;
+    }
+    .desktop_ml_40 {
+    margin-left: 40px;
+    }
+    .desktop_ml_20 {
+    margin-left: 20px;
+    }
+    .desktop_width_240 {
+    width: 240px;
+    }
+    .desktop_width_300 {
+    width: 300px;
+    padding: 16px 0;
+    }
+    .notify-msg .mobile_form__row-caption {
+    display: none;
+    }
+    @media (max-width: 767px) {
+    .desktop_ml_40 {
+    margin-left: 0;
+    }
+    .notify-msg .form__row-caption {
+    display: none;
+    }
+    .notify-msg .mobile_form__row-caption {
+    display: block;
+    }
+    .desktop_ml_20 {
+    margin-left: 0;
+    }
+    .desktop_width_240 {
+    width: 100%;
+    }
+    .desktop_width_300 {
+    width: 100%;
+    padding: 0;
+    }
+    .modal_p {
+    font-size: 13px;
+    }
+    .modal_p {
+    font-size: 13px;
+    }
+    .modal-inner .window-title {
+    font-size: 17px;
+    }
+    .modal__posting-input {
+    padding: 0;
+    }
+    .modal__posting-input input {
+    height: 34px;
+    font-size: 13px;
+    padding-right: 50px;
+    }
+    .modal__posting-edit-link {
+    bottom: -9px;
+    font-size: 13px;
+    right: 10px;
+    }
+    .modal__posting-edit-link .fa {
+    font-size: 12px;
+    }
+    .btn.posting_btn {
+    height: 50px;
+    font-size: 16px;
+    line-height: 35px;
+    width: 100%;
+    margin: 0 0 10px;
+    }
+    .modal__posting-form .form__label {
+    margin-bottom: 15px;
+    font-size: 13px;
+    }
+    .modal__bottom-cancel {
+    font-size: 16px;
+    margin-left: 10px;
+    }
+    #pagination-per-page-w2 select {
+    width: 45px;
+    height: 28px;
+    font-size: 16px;
+    line-height: 1;
+    display: inline-block;
+    }
+    }
+    .modal__text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #717171;
+    }
 .modal-inner .social_links{
     font-size:15px;
     margin-top:10px;
