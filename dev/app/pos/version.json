@@ -1,6 +1,6 @@
 {
   "maintenance": false,
   "message": "New features added",
-  "requiredBuild": 3,
+  "requiredBuild": 2,
   "downloadUrl": "https://johnwaithira.github.io/dev/app/pos/update/"
 }
